@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/embed/(.*)", "destination": "/embed" }]
+  "rewrites": [{ "source": "/embed/(.*)", "destination": "/embed" }],
+  "scripts": {
+    "build": "express build --output public"
+  }
 }
