@@ -75,6 +75,6 @@ res.send("The resource you have requested is not available.")
 
 
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(3000, () => {
   console.log("Ready")
 })
